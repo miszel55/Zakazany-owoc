@@ -1,0 +1,14 @@
+export const metadata = {
+  title: 'ZakazanyOwoc',
+  description: 'Portal randkowo-ogłoszeniowy',
+}
+
+import './globals.css'
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="pl">
+      <body>{children}</body>
+    </html>
+  )
+}
